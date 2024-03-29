@@ -1,0 +1,50 @@
+.call {
+  background-color: #002529;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+a {
+  text-decoration: none;
+}
+.all {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.footer_link {
+  padding-top: 10px;
+}
+.footer_link a {
+  color: white;
+  margin: 5px;
+}
+.footer_about {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  & a {
+    line-height: 25px;
+    color: #5c7476;
+  }
+}
+
+.footer_adv {
+  padding-top: 10px;
+  & a {
+    margin: 5px;
+  }
+}
+.copy {
+  padding-top: 10px;
+  & a {
+    color: #5c7476;
+  }
+}
+
+@media (min-width: 768px) {
+  .all {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+  }
+}

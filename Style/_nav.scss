@@ -1,0 +1,41 @@
+.header_block {
+  padding-top: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav_link {
+  display: none;
+}
+.nav_link a {
+  text-decoration: none;
+  color: white;
+  font-family: "Livvic", sans-serif;
+  margin-left: 40px;
+  //margin-right: 40px;
+}
+.menubtn {
+  color: white;
+  padding: 10px 33px 11px 33px;
+  border-radius: 20px;
+  border: 1px solid white;
+  display: none;
+}
+@media (min-width: 768px) {
+  .nav_link {
+    display: inline-block;
+  }
+  .menubtn {
+    display: block;
+  }
+  .menuimg {
+    display: none;
+  }
+  .header_logo {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  .logo {
+  }
+}
